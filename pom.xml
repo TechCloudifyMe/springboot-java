@@ -19,11 +19,6 @@
 		    <name>maven-releases</name>
 		    <url>http://44.210.87.132:8081/repository/maven-releases/</url>
 	    </repository>
-	    <repository>
-		    <id>filpkart-snapshot</id>
-		    <name>filpkart-snapshot</name>
-		    <url>http://44.210.87.132:8081/repository/filpkart-snapshot/</url>
-	    </repository>
 	    <snapshotRepository>
 		    <id>maven-snapshots</id>
 		    <name>maven-snapshots</name>
