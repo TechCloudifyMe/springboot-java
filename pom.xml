@@ -14,11 +14,17 @@
         <version>2.0.5.RELEASE</version>
     </parent>
     <distributionManagement>
-		<snapshotRepository>
-    		  <id>filpkart-snapshot</id>
-    		  <url>http://44.210.87.132:8081/repository/filpkart-snapshot/</url>
-   		</snapshotRepository>
-	</distributionManagement>
+	    <repository>
+		    <id>maven-releases</id>
+		    <name>maven-releases</name>
+		    <url>http://44.210.87.132:8081/repository/maven-releases/</url>
+	    </repository>
+	    <snapshotRepository>
+		    <id>filpkart-snapshot</id>
+		    <name>filpkart-snapshot</name>
+		    <url>http://44.210.87.132:8081/repository/filpkart-snapshot/</url>
+	    </snapshotRepository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
